@@ -16,7 +16,7 @@ public class LogoutTest extends BaseTest {
 		LogoutPage logoutPage = new LogoutPage(getDriver());
 		
 		loginpage.loginAs(username, password);
-		
+		//logout
 		logoutPage.logOut();
 		ScreenshotUtils.captureScreenshot(driver, "backtologinpage");
 		
