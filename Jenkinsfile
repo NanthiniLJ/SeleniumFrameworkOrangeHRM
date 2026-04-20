@@ -20,6 +20,11 @@ pipeline {
                     bat 'mvn test'
                 }
             }
+	post {
+            always {
+            	junit 'SeleniumFramework/target/surefire-reports/*.xml'
+        }
+    }
         }
     }
 }
