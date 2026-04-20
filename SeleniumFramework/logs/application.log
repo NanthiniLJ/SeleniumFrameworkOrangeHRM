@@ -248,3 +248,18 @@
 2026-04-20 17:06:28.789 [main] INFO  listeners.TestListener - Test Passed: pimTest
 2026-04-20 17:06:29.359 [main] INFO  base.BaseTest - Browser closed successfully.
 2026-04-20 17:06:29.360 [main] INFO  base.BaseTest - ========== Test Setup Completed ==========
+2026-04-20 17:31:17.908 [main] INFO  base.BaseTest - ========== Starting Test Setup ==========
+2026-04-20 17:31:22.693 [main] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2026-04-20 17:31:22.756 [main] INFO  tests.PIMTest - ========== PIM Test Started ==========
+2026-04-20 17:31:22.762 [main] INFO  tests.PIMTest - Step 1: Logging in
+2026-04-20 17:31:23.474 [main] INFO  tests.PIMTest - Step 2: Verifying Dashboard
+2026-04-20 17:31:25.269 [main] INFO  utils.ScreenshotUtils - Screenshot captured: ./screenshots/Dashboard_Visible_2026-04-20_17-31-25.png
+2026-04-20 17:31:25.269 [main] INFO  tests.PIMTest - Step 3: Navigate to PIM
+2026-04-20 17:31:29.432 [main] INFO  utils.ScreenshotUtils - Screenshot captured: ./screenshots/PIM_Page_2026-04-20_17-31-29.png
+2026-04-20 17:31:29.432 [main] INFO  tests.PIMTest - Step 4: Adding Employee
+2026-04-20 17:31:36.013 [main] INFO  tests.PIMTest - Step 5: Searching Employee
+2026-04-20 17:31:43.447 [main] INFO  utils.ScreenshotUtils - Screenshot captured: ./screenshots/Employee_Search_Result_2026-04-20_17-31-43.png
+2026-04-20 17:31:43.447 [main] INFO  tests.PIMTest - ========== PIM Test Completed ==========
+2026-04-20 17:31:43.452 [main] INFO  listeners.TestListener - Test Passed: pimTest
+2026-04-20 17:31:44.020 [main] INFO  base.BaseTest - Browser closed successfully.
+2026-04-20 17:31:44.021 [main] INFO  base.BaseTest - ========== Test Setup Completed ==========
