@@ -41,14 +41,15 @@ public class PIMPage {
 			));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(saveButton)).click();
 		//driver.findElement(saveButton).click();
-		Thread.sleep(6000);
+		Thread.sleep(10000);
 		//save.get(1).click();
 		System.out.println("added Employee");
 	}
 	
 	public void searchEmployee(String name) throws InterruptedException {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(employeeName)).sendKeys(name);
-		driver.findElement(searchBtn).click();
+		wait.until(ExpectedConditions.visibilityOfElementLocated(searchBtn)).click();
+		//driver.findElement(searchBtn).click();
 		
 		js.executeScript("window.scrollBy(0,400)");
 		Thread.sleep(3000);

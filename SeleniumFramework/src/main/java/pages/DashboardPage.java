@@ -12,7 +12,7 @@ public class DashboardPage {
 	WebDriver driver;
 	WebDriverWait wait;
 	
-	By dashboardText = By.cssSelector("h6");
+	By dashboardText = By.xpath("//h6[text()='Dashboard']");
 	By pimMenu = By.xpath("//span[text()='PIM']");
 	
 	public DashboardPage(WebDriver driver) {
@@ -21,12 +21,16 @@ public class DashboardPage {
 	}
 	
 	public boolean isDashboardVisible() {
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(
+				By.cssSelector(".oxd-form-loader")
+			));
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(dashboardText)).isDisplayed();
 		
 	}
 	
 	public void goToPIM() throws InterruptedException {
-		driver.findElement(pimMenu).click();
+		wait.until(ExpectedConditions.visibilityOfElementLocated(pimMenu)).click();
+		//driver.findElement(pimMenu).click();
 		Thread.sleep(3000);
 	}
 	

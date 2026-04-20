@@ -31,6 +31,7 @@ public class PIMTest extends BaseTest{
 
 		logger.info("Step 2: Verifying Dashboard");
 		Assert.assertTrue(dashboardPage.isDashboardVisible(), "Dashboard not visible");
+		System.out.println("executeddashboard");
 		ScreenshotUtils.captureScreenshot(driver, "Dashboard_Visible");
 		
 		logger.info("Step 3: Navigate to PIM");
