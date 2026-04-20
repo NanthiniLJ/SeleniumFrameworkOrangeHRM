@@ -31,13 +31,14 @@ public class PIMPage {
 		this.js = ((JavascriptExecutor) driver);
 	}
 	
-	public void addEmployee(String firstname, String lastname) {
+	public void addEmployee(String firstname, String lastname) throws InterruptedException {
 		//wait.until(ExpectedConditions.visibilityOfElementLocated(pimPage)).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(addBtn)).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(fName)).sendKeys(firstname);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(lName)).sendKeys(lastname);
 		
-		driver.findElement(saveButton).click();;
+		driver.findElement(saveButton).click();
+		Thread.sleep(5000);
 		//save.get(1).click();
 		System.out.println("added Employee");
 	}

@@ -14,7 +14,7 @@ public class DashboardTest extends BaseTest {
 
 	@Test(dataProvider = "loginData", dataProviderClass = DataProviders.class)
 	
-	public void dashboardTest(String username, String password) {
+	public void dashboardTest(String username, String password, String type) {
 		LoginPage loginpage = new LoginPage(driver);
 		DashboardPage dashboardPage = new DashboardPage(getDriver());
 		

@@ -10,7 +10,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="dashboardTest"/>
+          <include name="dashboardTest" invocation-numbers="0"/>
         </methods>
       </class> <!-- tests.DashboardTest -->
       <class name="tests.PIMTest">

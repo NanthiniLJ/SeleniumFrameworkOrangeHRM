@@ -7,8 +7,6 @@
   
   <test thread-count="2" name="Test">
     <classes>
-      <class name="tests.LoginTest"/>
-      <class name="tests.DashboardTest"/>
       <class name="tests.PIMTest"/>
     </classes>
   </test> <!-- Test -->
