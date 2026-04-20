@@ -263,3 +263,22 @@
 2026-04-20 17:31:43.452 [main] INFO  listeners.TestListener - Test Passed: pimTest
 2026-04-20 17:31:44.020 [main] INFO  base.BaseTest - Browser closed successfully.
 2026-04-20 17:31:44.021 [main] INFO  base.BaseTest - ========== Test Setup Completed ==========
+2026-04-20 20:55:35.682 [main] INFO  base.BaseTest - ========== Starting Test Setup ==========
+2026-04-20 20:56:12.757 [main] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2026-04-20 20:56:12.804 [main] INFO  tests.PIMTest - ========== PIM Test Started ==========
+2026-04-20 20:56:12.809 [main] INFO  tests.PIMTest - Step 1: Logging in
+2026-04-20 21:07:03.808 [main] INFO  base.BaseTest - ========== Starting Test Setup ==========
+2026-04-20 21:07:12.409 [main] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2026-04-20 21:07:12.512 [main] INFO  tests.PIMTest - ========== PIM Test Started ==========
+2026-04-20 21:07:12.522 [main] INFO  tests.PIMTest - Step 1: Logging in
+2026-04-20 21:07:13.575 [main] INFO  tests.PIMTest - Step 2: Verifying Dashboard
+2026-04-20 21:07:15.589 [main] INFO  utils.ScreenshotUtils - Screenshot captured: ./screenshots/Dashboard_Visible_2026-04-20_21-07-15.png
+2026-04-20 21:07:15.589 [main] INFO  tests.PIMTest - Step 3: Navigate to PIM
+2026-04-20 21:07:19.894 [main] INFO  utils.ScreenshotUtils - Screenshot captured: ./screenshots/PIM_Page_2026-04-20_21-07-19.png
+2026-04-20 21:07:19.894 [main] INFO  tests.PIMTest - Step 4: Adding Employee
+2026-04-20 21:07:27.580 [main] INFO  tests.PIMTest - Step 5: Searching Employee
+2026-04-20 21:07:35.178 [main] INFO  utils.ScreenshotUtils - Screenshot captured: ./screenshots/Employee_Search_Result_2026-04-20_21-07-35.png
+2026-04-20 21:07:35.182 [main] INFO  tests.PIMTest - ========== PIM Test Completed ==========
+2026-04-20 21:07:35.188 [main] INFO  listeners.TestListener - Test Passed: pimTest
+2026-04-20 21:07:36.237 [main] INFO  base.BaseTest - Browser closed successfully.
+2026-04-20 21:07:36.237 [main] INFO  base.BaseTest - ========== Test Setup Completed ==========

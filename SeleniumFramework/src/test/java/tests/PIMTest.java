@@ -41,6 +41,7 @@ public class PIMTest extends BaseTest{
 		pimPage.addEmployee("test6", "six");
 		
 		
+		
 		logger.info("Step 5: Searching Employee");
 		dashboardPage.goToPIM();
 		pimPage.searchEmployee("test6");

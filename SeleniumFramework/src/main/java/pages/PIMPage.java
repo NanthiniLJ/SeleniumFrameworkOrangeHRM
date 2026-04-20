@@ -36,6 +36,9 @@ public class PIMPage {
 		wait.until(ExpectedConditions.visibilityOfElementLocated(addBtn)).click();
 		wait.until(ExpectedConditions.visibilityOfElementLocated(fName)).sendKeys(firstname);
 		wait.until(ExpectedConditions.visibilityOfElementLocated(lName)).sendKeys(lastname);
+		wait.until(ExpectedConditions.invisibilityOfElementLocated(
+			    By.cssSelector("div[class*='oxd-form-loader']")
+			));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(saveButton)).click();
 		//driver.findElement(saveButton).click();
 		Thread.sleep(6000);
