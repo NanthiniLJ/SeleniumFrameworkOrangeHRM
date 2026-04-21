@@ -15,13 +15,14 @@ Framework Features:
     Reusable utility methods
     Data-driven testing (TestNG DataProvider)
     Cross-browser support (Chrome, Edge)
+    Integrated Extent Reports
     Clean test structure and modular design
     Test execution using TestNG XML suite configuration
 
 Test Scenarios Covered
     Login functionality
     Dashboard validation
-    Employee Management (Add/Search) (add if implemented)
+    Employee Management (Add & Search employee)
     Logout functionality
 
 Project Structure:
@@ -38,14 +39,13 @@ How to Run the Project:
       Tests will execute and results will be shown
 
 Test Reports:
-    Test execution reports are genrated using TestNG
+    Test execution reports are genrated using TestNG and Extent Reports
 
 Author:
     Nanthini LJ
     Senior QA Engineer|Automation Enthusiast
 
 Future Enhancements:
-    Integrate Extent Reports
     Add CI/CD using Jenkins
     Parallel Execution
 
