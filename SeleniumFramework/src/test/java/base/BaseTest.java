@@ -10,17 +10,19 @@ import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeClass;
-//import org.testng.annotations.Test;
 import org.testng.annotations.BeforeSuite;
 
+import com.aventstack.extentreports.ExtentReports;
+
 import io.github.bonigarcia.wdm.WebDriverManager;
+import utils.ExtentManager;
 
 //import config.ConfigReader;
 
 public class BaseTest {
+	
+	protected static ExtentReports extent;
 	
 	private static final Logger logger = LogManager.getLogger(BaseTest.class);
 	protected Properties prop;
@@ -31,6 +33,8 @@ public class BaseTest {
 	public void setUp() {
 		configReader = new ConfigReader();
 		prop = configReader.init_prop();
+		
+		extent = ExtentManager.getInstance();
 		
 		logger.info("========== Starting Test Setup ==========");
 
@@ -70,6 +74,9 @@ public class BaseTest {
 			DriverManager.unload();
 			logger.info("Browser closed successfully.");
 		}
+		if (extent != null) {
+	        extent.flush();
+	    }
 		logger.info("========== Test Setup Completed ==========");
 	}
 

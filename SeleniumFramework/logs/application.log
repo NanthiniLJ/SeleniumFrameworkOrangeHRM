@@ -350,3 +350,30 @@
 2026-04-20 22:02:47.662 [main] INFO  listeners.TestListener - Test Passed: pimTest
 2026-04-20 22:02:48.268 [main] INFO  base.BaseTest - Browser closed successfully.
 2026-04-20 22:02:48.268 [main] INFO  base.BaseTest - ========== Test Setup Completed ==========
+2026-04-21 20:50:16.265 [main] INFO  base.BaseTest - ========== Starting Test Setup ==========
+2026-04-21 20:50:28.077 [main] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2026-04-21 20:50:28.154 [main] INFO  tests.PIMTest - ========== PIM Test Started ==========
+2026-04-21 20:50:31.785 [main] INFO  utils.ScreenshotUtils - Screenshot captured: ./screenshots/Dashboard_Visible_2026-04-21_20-50-31.png
+2026-04-21 20:50:36.613 [main] INFO  utils.ScreenshotUtils - Screenshot captured: ./screenshots/PIM_Page_2026-04-21_20-50-36.png
+2026-04-21 20:50:56.825 [main] INFO  utils.ScreenshotUtils - Screenshot captured: ./screenshots/Employee_Search_Result_2026-04-21_20-50-56.png
+2026-04-21 20:50:56.992 [main] INFO  tests.PIMTest - ========== PIM Test Completed ==========
+2026-04-21 20:50:57.004 [main] INFO  listeners.TestListener - Test Passed: pimTest
+2026-04-21 20:50:58.314 [main] INFO  base.BaseTest - Browser closed successfully.
+2026-04-21 20:50:58.331 [main] INFO  base.BaseTest - ========== Test Setup Completed ==========
+2026-04-21 20:54:19.205 [main] INFO  base.BaseTest - ========== Starting Test Setup ==========
+2026-04-21 20:54:23.486 [main] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2026-04-21 20:54:23.546 [main] INFO  tests.PIMTest - ========== PIM Test Started ==========
+2026-04-21 20:54:45.426 [main] ERROR listeners.TestListener - Test Failed: pimTest
+2026-04-21 20:54:45.595 [main] INFO  utils.ScreenshotUtils - Screenshot captured: ./screenshots/pimTest_FAILED_2026-04-21_20-54-45.png
+2026-04-21 20:54:46.067 [main] INFO  base.BaseTest - Browser closed successfully.
+2026-04-21 20:54:46.078 [main] INFO  base.BaseTest - ========== Test Setup Completed ==========
+2026-04-21 21:07:16.712 [main] INFO  base.BaseTest - ========== Starting Test Setup ==========
+2026-04-21 21:07:21.524 [main] INFO  base.BaseTest - Navigated to URL: https://opensource-demo.orangehrmlive.com
+2026-04-21 21:07:21.569 [main] INFO  tests.PIMTest - ========== PIM Test Started ==========
+2026-04-21 21:07:24.069 [main] INFO  utils.ScreenshotUtils - Screenshot captured: ./screenshots/Dashboard_Visible_2026-04-21_21-07-23.png
+2026-04-21 21:07:28.105 [main] INFO  utils.ScreenshotUtils - Screenshot captured: ./screenshots/PIM_Page_2026-04-21_21-07-27.png
+2026-04-21 21:07:47.137 [main] INFO  utils.ScreenshotUtils - Screenshot captured: ./screenshots/Employee_Search_Result_2026-04-21_21-07-47.png
+2026-04-21 21:07:47.178 [main] INFO  tests.PIMTest - ========== PIM Test Completed ==========
+2026-04-21 21:07:47.178 [main] INFO  listeners.TestListener - Test Passed: pimTest
+2026-04-21 21:07:47.837 [main] INFO  base.BaseTest - Browser closed successfully.
+2026-04-21 21:07:47.850 [main] INFO  base.BaseTest - ========== Test Setup Completed ==========

@@ -9,13 +9,13 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
 import base.BaseTest;
-import utils.ExtentReportManager;
+import utils.ExtentManager;
 import utils.ScreenshotUtils;
 
 public class TestListener implements ITestListener {
 	
 	    private static final Logger logger = LogManager.getLogger(TestListener.class);
-	    ExtentReports extent = ExtentReportManager.getInstance();
+	    ExtentReports extent = ExtentManager.getInstance();
 	    ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 	    
 	    @Override
